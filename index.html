@@ -8,23 +8,39 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-	<picture>
-		<source srcset="img/internet.png 10x">
-		<!-- <source srcset="img/package.png" type="image/png"> -->
+	<!-- <picture> -->
 		<!-- <source srcset="img/John-Doe.webp" media="(min-width: 300px)" type="image/webp"> -->
 		<!-- <source srcset="img/internet.png" media="(min-width: 300px)" type="image/png"> -->
-		<img src="img/300X100.gif" alt="" width="300">
+		<!-- <source srcset="img/hand-watch.png" type="image/png"> -->
+		<!-- <img src="img/300X100.gif" alt=""> -->
 		<!-- <img src="img/300X500.gif" alt=""> -->
-	</picture>
+	<!-- </picture> -->
 
-	<!-- <img src="img/300X100.gif" srcset="img/John-Doe.webp" alt=""> -->
+<!-- 80vw = 1536px     4.0421      -->
+<!-- 0.99x    1.5626x -->
+
+	<img  src="img/300X500.gif"
+		srcset="
+				img/seo.png 0.99x,
+				img/John-Doe.webp 1.1x
+				"
+		alt="">
+
+<!-- 	<picture>
+		<source srcset="img/John-Doe.webp 3x, img/seo.png 2x, img/internet.png 0.78x" type="image/webp">
+		<source srcset="img/seo.png" type="image/png">
+		<source srcset="img/internet.png" type="image/png">
+		<img src="img/300X100.gif" alt="">
+	</picture> -->
+
 
 </body>
 </html>
 <!--
 
 ---------------------------
-
+img  media не работает
+ width у source нельзя
 
 
 -->
