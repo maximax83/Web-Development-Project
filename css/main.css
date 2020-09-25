@@ -231,6 +231,13 @@ textarea {overflow: auto;}
 		margin: 20px auto 50px;
 	}
 
+	.btn {
+		width: 150px;
+		min-height: 50px;
+		padding: 5px;
+		font-size: 17px;
+	}
+
 }
 
 
