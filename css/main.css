@@ -559,6 +559,12 @@ textarea {overflow: auto;}
 
 @media (max-width: 900px) {
 
+	.section-main__content:before {
+		content: '';
+		display: block;
+		flex-grow: 0.4;
+	}
+
 	.title-main {
 		font-size: 40px;
 	}
