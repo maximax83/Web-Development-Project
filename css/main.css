@@ -913,8 +913,6 @@ textarea {overflow: auto;}
 
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-.slider {}
-
 .slider__viewport {
 	overflow: hidden;
 }
@@ -924,10 +922,6 @@ textarea {overflow: auto;}
 	justify-content: space-between;
 	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
 }
-
-.member {}
-
-.slider__slide {}
 
 .member__ava {
 	display: block;
@@ -943,8 +937,6 @@ textarea {overflow: auto;}
 	font-weight: 600;
 	font-size: 20px;
 }
-
-.member__post {}
 
 .member__social {
 	display: flex;
@@ -1294,15 +1286,3 @@ textarea {overflow: auto;}
 	font-weight: 600;
 	font-size: 20px;
 }
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*
-Удалить перед публикацией - / |||||||||||||||||||| /
-Our Team Member много пустых классов
-Проверить: кроссбраузурность, валидация, googlespeed
-Удалить другие версии
-
-Иерархия заголовков
-скрипт вниз
-кнопка вниз у мобильника
-
-*/
